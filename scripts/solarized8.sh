@@ -1,6 +1,6 @@
 #!/bin/sh
-# Modify 256-color palette in supported terminals
-# Script adapted from https://github.com/chriskempson/base16-shell
+; Modify 256-color palette in supported terminals
+; Script adapted from https://github.com/chriskempson/base16-shell
 set -o errexit
 
 hex2rgb() {
@@ -50,21 +50,21 @@ printf $printf_template 32 $(hex2rgb "#268bd2")
 printf $printf_template 37 $(hex2rgb "#2aa198")
 printf $printf_template 106 $(hex2rgb "#859900")
 
-# foreground / background / cursor color
-# if [ -n "$ITERM_SESSION_ID" ]; then
-#   # iTerm2 proprietary escape codes
-#   printf $printf_template_custom Pg 93a1a1 # forground
-#   printf $printf_template_custom Ph 002b36 # background
-#   printf $printf_template_custom Pi 93a1a1 # bold color
-#   printf $printf_template_custom Pj 586e75 # selection color
-#   printf $printf_template_custom Pk 93a1a1 # selected text color
-#   printf $printf_template_custom Pl 93a1a1 # cursor
-#   printf $printf_template_custom Pm 002b36 # cursor text
-# else
-#   printf $printf_template_var 10 $color_foreground
-#   printf $printf_template_var 11 $color_background
-#   printf $printf_template_var 12 $color_cursor
-# fi
+; foreground / background / cursor color
+; if [ -n "$ITERM_SESSION_ID" ]; then
+;   # iTerm2 proprietary escape codes
+;   printf $printf_template_custom Pg 93a1a1 # forground
+;   printf $printf_template_custom Ph 002b36 # background
+;   printf $printf_template_custom Pi 93a1a1 # bold color
+;   printf $printf_template_custom Pj 586e75 # selection color
+;   printf $printf_template_custom Pk 93a1a1 # selected text color
+;   printf $printf_template_custom Pl 93a1a1 # cursor
+;   printf $printf_template_custom Pm 002b36 # cursor text
+; else
+;   printf $printf_template_var 10 $color_foreground
+;   printf $printf_template_var 11 $color_background
+;   printf $printf_template_var 12 $color_cursor
+; fi
 
 unset printf_template
 unset printf_template_var

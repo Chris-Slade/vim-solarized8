@@ -149,12 +149,12 @@ Variant: gui 256 16
   TabLineFill        base01            base02
   VertSplit          base01            base02
 #else
-  StatusLine         base0             base02            reverse
-  StatusLineNC       base01            base02            reverse
-  TabLine            base01            base02            reverse
-  TabLineFill        base01            base02            reverse
-  TabLineSel         base0             base02            reverse
-  VertSplit          base02            base01
+  StatusLine         base1             base02
+  StatusLineNC       base01            base02
+  TabLine            base0             base02            underline
+  TabLineFill        base0             base02            underline
+  TabLineSel         base01            base2             underline,reverse
+  VertSplit          none              base02
 #endif
 ; }}}
 ; Base groups (dark) {{{
@@ -206,6 +206,13 @@ CommandMode          magenta           base3             reverse
 ; Neovim (dark) {{{
 TermCursor        -> Cursor
 TermCursorNC         base03            base01
+; }}}
+; User groups {{{
+User1                base2             base03
+User2                cyan              base02
+User3                base0             base03
+User4                green             base02
+User5                red               base02
 ; }}}
 ; Extra stuff (dark) {{{
 Include: _extra.colortemplate
