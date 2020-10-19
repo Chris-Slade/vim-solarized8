@@ -64,30 +64,30 @@ Include: _fix-256-palette.colortemplate
   LineNr             base0             base02
   NonText            orange            none              bold
   SpecialKey         orange            none              reverse
-  SpellBad           violet            base3             t=underline,reverse g=undercurl,reverse s=red
-  SpellCap           violet            base3             t=underline,reverse g=undercurl,reverse s=red
-  SpellLocal         yellow            base3             t=underline,reverse g=undercurl,reverse s=red
-  SpellRare          cyan              base3             t=underline,reverse g=undercurl,reverse s=red
+  SpellBad           none              base3             t=underline,reverse g=undercurl,reverse s=red
+  SpellCap           none              base3             t=underline,reverse g=undercurl,reverse s=red
+  SpellLocal         none              base3             t=underline,reverse g=undercurl,reverse s=red
+  SpellRare          none              base3             t=underline,reverse g=undercurl,reverse s=red
   Title              yellow            none              bold
 #elseif get(g:, '@optionprefix_visibility', '') ==# 'low'
   CursorLineNr       base01            base02            bold
   LineNr             base01            base02
   NonText            base02            none              bold
   SpecialKey         base02            none              reverse
-  SpellBad           violet            none              t=underline g=undercurl s=violet
-  SpellCap           violet            none              t=underline g=undercurl s=violet
-  SpellLocal         yellow            none              t=underline g=undercurl s=yellow
-  SpellRare          cyan              none              t=underline g=undercurl s=cyan
+  SpellBad           none              none              t=underline g=undercurl s=violet
+  SpellCap           none              none              t=underline g=undercurl s=violet
+  SpellLocal         none              none              t=underline g=undercurl s=yellow
+  SpellRare          none              none              t=underline g=undercurl s=cyan
   Title              base01            none              bold
 #else " normal visibility
   CursorLineNr       base0             base02            bold
   LineNr             base00            base02
   NonText            base00            none              bold
   SpecialKey         base00            base02            bold
-  SpellBad           violet            none              t=underline g=undercurl s=violet
-  SpellCap           violet            none              t=underline g=undercurl s=violet
-  SpellLocal         yellow            none              t=underline g=undercurl s=yellow
-  SpellRare          cyan              none              t=underline g=undercurl s=cyan
+  SpellBad           none              none              t=underline g=undercurl s=violet
+  SpellCap           none              none              t=underline g=undercurl s=violet
+  SpellLocal         none              none              t=underline g=undercurl s=yellow
+  SpellRare          none              none              t=underline g=undercurl s=cyan
   Title              orange            none              bold
 #endif
 ; }}}
@@ -273,10 +273,10 @@ Include: _light_terminal.colortemplate
   MatchParen         base03            base00            bold
   NonText            red               none              bold
   SpecialKey         red               none              reverse
-  SpellBad           magenta           base03            t=underline,reverse g=undercurl,reverse s=violet
-  SpellCap           magenta           base03            t=underline,reverse g=undercurl,reverse s=violet
-  SpellLocal         yellow            base03            t=underline,reverse g=undercurl,reverse s=orange
-  SpellRare          cyan              base03            t=underline,reverse g=undercurl,reverse s=orange
+  SpellBad           none              base03            t=underline,reverse g=undercurl,reverse s=violet
+  SpellCap           none              base03            t=underline,reverse g=undercurl,reverse s=violet
+  SpellLocal         none              base03            t=underline,reverse g=undercurl,reverse s=orange
+  SpellRare          none              base03            t=underline,reverse g=undercurl,reverse s=orange
   Title              orange            none              bold
 #elseif get(g:, '@optionprefix_visibility', '') ==# 'low'
   #if get(g:, '@optionprefix_old_cursor_style', 0)
@@ -289,10 +289,10 @@ Include: _light_terminal.colortemplate
   MatchParen         red               base02            bold,underline
   NonText            base02            none              bold
   SpecialKey         base02            none              bold
-  SpellBad           magenta           none              t=underline g=undercurl s=violet
-  SpellCap           magenta           none              t=underline g=undercurl s=violet
-  SpellLocal         yellow            none              t=underline g=undercurl s=yellow
-  SpellRare          cyan              none              t=underline g=undercurl s=cyan
+  SpellBad           none              none              t=underline g=undercurl s=violet
+  SpellCap           none              none              t=underline g=undercurl s=violet
+  SpellLocal         none              none              t=underline g=undercurl s=yellow
+  SpellRare          none              none              t=underline g=undercurl s=cyan
   Title              base01            none              bold
 #else " Normal visibility
   #if get(g:, 'solarized_old_cursor_style', 0)
@@ -305,10 +305,10 @@ Include: _light_terminal.colortemplate
   MatchParen         red               base02            bold,underline
   NonText            base00            none              bold
   SpecialKey         base00            base02            bold
-  SpellBad           magenta           none              t=underline g=undercurl s=violet
-  SpellCap           magenta           none              t=underline g=undercurl s=violet
-  SpellLocal         yellow            none              t=underline g=undercurl s=yellow
-  SpellRare          cyan              none              t=underline g=undercurl s=cyan
+  SpellBad           none              none              t=underline g=undercurl s=violet
+  SpellCap           none              none              t=underline g=undercurl s=violet
+  SpellLocal         none              none              t=underline g=undercurl s=yellow
+  SpellRare          none              none              t=underline g=undercurl s=cyan
   Title              orange            none              bold
 #endif
 ; }}}
