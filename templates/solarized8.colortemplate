@@ -162,6 +162,7 @@ ColorColumn          none              base02
 Conceal              blue              none
 CursorColumn         none              base02
 CursorLine           none              base02
+Delimiter            base00            none
 Directory            blue              none
 EndOfBuffer          none              none
 ErrorMsg             red               base3             reverse
@@ -188,8 +189,9 @@ CursorIM             none              fg
 Error                red               base3             bold,reverse
 Identifier           blue              none
 Ignore               none              none
+Operator             base0             none
 PreProc              orange            none
-Special              orange            none
+Special              base0             none
 Statement            green             none
 Todo                 magenta           none              bold
 Type                 yellow            none

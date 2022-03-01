@@ -1,4 +1,4 @@
-*solarized8.txt*	For Vim version 8.2	Last change: 2021 Dec 07
+*solarized8.txt*	For Vim version 8.0	Last change: 2022 Mar 01
 
 
 			Solarized 8 color scheme
