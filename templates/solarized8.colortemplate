@@ -187,6 +187,7 @@ Comment              base01            none              italic
 Constant             cyan              none
 CursorIM             none              fg
 Error                red               base3             bold,reverse
+Function             blue              none
 Identifier           base0             none
 Ignore               none              none
 Operator             base0             none
@@ -403,6 +404,7 @@ Comment              base01            none              italic
 Constant             cyan              none
 CursorIM             none              fg
 Error                red               base03            bold,reverse
+Function             blue              none
 Identifier           blue              none
 Ignore               none              none
 PreProc              orange            none
