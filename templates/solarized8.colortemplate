@@ -187,11 +187,11 @@ Comment              base01            none              italic
 Constant             cyan              none
 CursorIM             none              fg
 Error                red               base3             bold,reverse
-Identifier           blue              none
+Identifier           base0             none
 Ignore               none              none
 Operator             base0             none
 PreProc              orange            none
-Special              base0             none
+Special              blue              none
 Statement            green             none
 Todo                 magenta           none              bold
 Type                 yellow            none
