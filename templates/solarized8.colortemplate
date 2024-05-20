@@ -170,6 +170,7 @@ IncSearch            orange            none              standout
 MatchParen           base3             base02            bold
 ModeMsg              blue              none
 MoreMsg              blue              none
+NormalFloat          base1             base02
 Pmenu                base1             base02
 PmenuSbar            none              base01
 PmenuSel             base2             base00
